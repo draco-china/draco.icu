@@ -1,5 +1,6 @@
 ---
 title: 首页
+footer: MIT Licensed | Copyright © 2021-present Powered by self
 ---
 
 <h2 align="center">Hi there, 👋 I'm <a href="https://github.com/draco-china">Draco!</a> 😎</h2>

@@ -5,7 +5,7 @@
  * @Email: Draco.coder@gmail.com
  * @Github: https://github.com/draco-china
  * @Date: 2021-06-12 05:27:09
- * @LastEditTime: 2021-06-13 20:46:29
+ * @LastEditTime: 2021-06-13 20:51:58
  */
 import { defineConfig } from 'dumi';
 
@@ -25,19 +25,21 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://draco.icu',
   },
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
   analytics: {
     // Google Analytics 代码，配置后会启用
     ga: 'UA-176586322-1',
     // 百度统计代码，配置后会启用
     baidu: 'c601bdebcd89b7fc076d669b78e34c6a',
   },
-  locales: [
-    ['zh-CN', '中文'],
-    ['en-US', 'English'],
+  scripts: [
+    {
+      'data-ad-client': 'ca-pub-8911772601296047',
+      async: true,
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+    },
   ],
-  // themeConfig: {
-  //   'c-primary': '#1890ff',
-  //   'c-heading': '#1890ff',
-  //   'c-text': '#1890ff',
-  // },
 });

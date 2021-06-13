@@ -5,7 +5,7 @@
  * @Email: Draco.coder@gmail.com
  * @Github: https://github.com/draco-china
  * @Date: 2021-06-12 05:27:09
- * @LastEditTime: 2021-06-13 20:51:58
+ * @LastEditTime: 2021-06-13 20:59:07
  */
 import { defineConfig } from 'dumi';
 
@@ -35,7 +35,7 @@ export default defineConfig({
     // 百度统计代码，配置后会启用
     baidu: 'c601bdebcd89b7fc076d669b78e34c6a',
   },
-  scripts: [
+  headScripts: [
     {
       'data-ad-client': 'ca-pub-8911772601296047',
       async: true,

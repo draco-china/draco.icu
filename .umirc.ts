@@ -5,7 +5,7 @@
  * @Email: Draco.coder@gmail.com
  * @Github: https://github.com/draco-china
  * @Date: 2021-06-12 05:27:09
- * @LastEditTime: 2021-06-13 20:35:20
+ * @LastEditTime: 2021-06-13 20:46:29
  */
 import { defineConfig } from 'dumi';
 
@@ -27,7 +27,7 @@ export default defineConfig({
   },
   analytics: {
     // Google Analytics 代码，配置后会启用
-    // ga: 'google analytics code',
+    ga: 'UA-176586322-1',
     // 百度统计代码，配置后会启用
     baidu: 'c601bdebcd89b7fc076d669b78e34c6a',
   },

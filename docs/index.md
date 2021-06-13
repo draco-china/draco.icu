@@ -23,7 +23,8 @@ footer: MIT Licensed | Copyright © 2021 - present  <a target="_blank" rel="noop
 
 - 手机：18573420525
 - Email：draco.coder@gmail.com
-- QQ/微信号：81627198/draco-china
+- QQ：81627198
+- 微信号：draco-china
 
 ---
 

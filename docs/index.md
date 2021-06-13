@@ -1,5 +1,5 @@
 ---
-title: 关于我
+title: 首页
 footer: MIT Licensed | Copyright © 2021 - present  <a target="_blank" rel="noopener noreferrer" href="https://github.com/draco-china">Draco-china</a>
 ---
 

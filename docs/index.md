@@ -39,6 +39,14 @@ footer: MIT Licensed | Copyright © 2021 - present  <a target="_blank" rel="noop
 
 ## 工作经历
 
+### 自主研发 （ 2021 年 1 月 ~ 至今 ）
+
+#### 31 原创设计（https://31desgin.com）
+
+- 产品背景： 为首饰原创设计师提供设计平台，并为用户提供定制生产
+- 负责事项： 团队建设 / 前端研发 / 需求分析 / 市场调研
+- 运用技术： React / Hooks / Redux / UMI@3 / Qankun / Antd / HTML5 / CSS3
+
 ### 深圳市天元云科技有限公司 （ 2017 年 12 月 ~ 2020 年 12 月 ）
 
 #### NAP-Paas 平台

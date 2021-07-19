@@ -31,7 +31,7 @@ footer: MIT Licensed | Copyright © 2021 - present  <a target="_blank" rel="noop
 ## 个人信息
 
 - Draco / 男 / 1996
-- 自考本科 / 北京外国语大学 (预计 2022 年毕业)
+- 自考本科 / 北京外国语大学 (预计 2022.01 毕业)
 - 工作年限：6 年
 - 技术博客：[https://draco.icu](https://draco.icu)
 - Github：[https://github.com/draco-china](https://github.com/draco-china)

@@ -42,7 +42,7 @@ border: none;
 
 - 产品背景： 为首饰原创设计师提供设计平台，并为用户提供定制生产
 - 负责事项： 团队建设 / 前端研发 / 需求分析 / 市场调研
-- 运用技术： React / Hooks / Redux / UMI@3 / Qankun / Antd / HTML5 / CSS3
+- 运用技术： React / Hooks / Redux / UMI@3 / Antd / HTML5 / CSS3
 
 ### 深圳市天元云科技有限公司 （ 2017 年 12 月 ~ 2020 年 12 月 ）
 

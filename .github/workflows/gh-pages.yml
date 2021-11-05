@@ -17,6 +17,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./docs-dist
-          external_repository: draco-china/draco-china.github.io
-          publish_branch: main
           cname: draco.icu

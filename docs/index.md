@@ -26,14 +26,58 @@ border: none;
 ## 个人信息
 
 - Draco / 男 / 1996
-- 自考本科 / 北京外国语大学 (预计 2022.01 毕业)
-- 工作年限：6 年
+- 自考本科 / 北京外国语大学
+- 工作年限：7.5 年
 - 技术博客：[https://draco.icu](https://draco.icu)
 - Github：[https://github.com/draco-china](https://github.com/draco-china)
 
 ---
 
 ## 工作经历
+
+### 盈合（深圳）机器人与自动化科技有限公司 （ 2021 年 8 月 ~ 至今 ）
+
+#### 其他后台项目
+
+RMS 叉车机器人 / 站岗机器人
+
+- 运用技术： React / Hooks / UMI@3 / Antd / HTML5 / CSS3
+- 项目总结： CRUD 项目，没啥好写的，复杂功能通过组件封装调用
+
+#### 机器人地图编辑器
+
+- 产品背景： 构建以组件为基础的通用功能模块，实现向业务提供功能支持，如机器人建图及路径规划，机器人任务编排
+- 负责模块： 独立完成
+- 运用技术： React / Hooks / G6 / X6 / Xflow
+- 项目总结： 需要同时了解不同机器人的业务功能, 将业务共性抽离，提供以高扩展性的通用功能模块
+- 界面预览： ![界面预览](./images/20220519164646.jpg)
+- 功能脑图： ![功能脑图](./images/robot-editor.png)
+
+#### 前端技术基础建设
+
+- 前端技术文档
+- 项目模板
+  - 微前端项目
+  - 服务端渲染项目
+  - 通用后台管理项目
+  - 简单基础页面项目
+- 业务组件
+  - SplitBox 拆分面板
+  - FeedBackButton 反馈按钮
+  - FormListSelect 数据列表选择器
+- Hooks
+  - useBeforeUnload 当用户尝试重新加载或关闭页面时显示浏览器警报，支持路由拦截，暂不支持自定义弹窗 UI，重加载页面和关闭页面不支持自定义提示语
+  - usePermission 跟踪浏览器 API 权限状态
+  - useSearchParam 获取 `URLSearchParams` 的值
+- umi 插件开发
+  - sso 单点登录 基于 umi 开发，使 sso 配置化
+  - openapi 基于 umi openapi 源码修改使其支持 proto3 协议生成 service 类
+- 工具类
+  - 代码规范
+  - SSO 单点登录
+  - 常用正则
+  - WEB 坐标 与 Ros 坐标 互转
+  - 常用加密方法
 
 ### 自主研发 （ 2021 年 1 月 ~ 2021 年 6 月 ）
 

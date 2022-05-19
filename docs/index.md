@@ -3,6 +3,21 @@ h1, h2 {
 border: none;
 }
 </style>
+<script>
+  function getWorkingYears() {
+    var startTime = new Date("10/07/2014 00:00:00").getTime();
+    var endTime = new Date().getTime();
+    var year = (endTime - startTime) / (24 * 60 * 60 * 1000 * 365).toFixed(1);
+    var wholeYear = year | 0;
+    var overage = year - wholeYear;
+    var approximately = overage.toFixed(0) ? 0.5 : 0;
+    return wholeYear+approximately;
+	}
+　window.onload = function(){
+    document.getElementById('working-years').innerHtml = getWorkingYears();
+  }
+</script>
+
 <h2 align="center">Hi there, 👋 I'm <a href="https://github.com/draco-china">Draco!</a> 😎</h2>
 
 ---
@@ -11,6 +26,7 @@ border: none;
   <img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=draco-china&text_color=586069&layout=compact&hide_border=true&bg_color=fff&title_color=0366d6&count_private=true&include_all_commits=true" alt="top-langs"/>
    <img src="https://github-readme-stats.vercel.app/api?username=draco-china&count_private=true&show_icons=true&icon_color=222&title_color=0366d6&text_color=586069&bg_color=fff&hide=issues&hide_border=true&include_all_commits=true" alt="api"/>
 </div>
+
 ---
 
 ## 联系方式
@@ -26,7 +42,7 @@ border: none;
 
 - Draco / 男 / 1996
 - 自考本科 / 北京外国语大学
-- 工作年限：7.5 年
+- 工作年限：<span id="working-years">X<span> 年
 - 技术博客：[https://draco.icu](https://draco.icu)
 - Github：[https://github.com/draco-china](https://github.com/draco-china)
 

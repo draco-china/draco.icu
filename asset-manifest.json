@@ -2,7 +2,7 @@
   "_chunksMap": {
     "umi": [
       "/umi.27fb2de8.css",
-      "/umi.efd5a8e6.js"
+      "/umi.c9d7f541.js"
     ],
     "wrappers": [
       "/vendors~docs__engineering__01-前端代码规范.md~docs__engineering__02-前端书籍推荐.md~docs__index.md~docs__optimiz~1bc2692f.353fd390.async.js",
@@ -21,7 +21,7 @@
     ],
     "docs__index.md": [
       "/vendors~docs__engineering__01-前端代码规范.md~docs__engineering__02-前端书籍推荐.md~docs__index.md~docs__optimiz~1bc2692f.353fd390.async.js",
-      "/docs__index.md.91c9d34e.async.js"
+      "/docs__index.md.f37da523.async.js"
     ],
     "docs__reward.md": [
       "/vendors~docs__engineering__01-前端代码规范.md~docs__engineering__02-前端书籍推荐.md~docs__index.md~docs__optimiz~1bc2692f.353fd390.async.js",
@@ -81,7 +81,7 @@
   "docs__engineering__01-前端代码规范.md.js": "/docs__engineering__01-前端代码规范.md.61dd6afe.async.js",
   "docs__engineering__02-前端书籍推荐.md.css": "/docs__engineering__02-前端书籍推荐.md.37fdd277.chunk.css",
   "docs__engineering__02-前端书籍推荐.md.js": "/docs__engineering__02-前端书籍推荐.md.a7df6e7a.async.js",
-  "docs__index.md.js": "/docs__index.md.91c9d34e.async.js",
+  "docs__index.md.js": "/docs__index.md.f37da523.async.js",
   "docs__optimization__00-前端性能优化认知.md.js": "/docs__optimization__00-前端性能优化认知.md.ca0e4322.async.js",
   "docs__optimization__01-前端性能分析工具和指标.md.js": "/docs__optimization__01-前端性能分析工具和指标.md.c1f0d583.async.js",
   "docs__optimization__02-浏览器渲染机制.md.css": "/docs__optimization__02-浏览器渲染机制.md.37fdd277.chunk.css",
@@ -94,7 +94,7 @@
   "docs__reward.md.js": "/docs__reward.md.95064614.async.js",
   "dumi_demos.js": "/dumi_demos.129c555e.async.js",
   "umi.css": "/umi.27fb2de8.css",
-  "umi.js": "/umi.efd5a8e6.js",
+  "umi.js": "/umi.c9d7f541.js",
   "vendors~dumi_demos.css": "/vendors~dumi_demos.b95829b9.chunk.css",
   "vendors~dumi_demos.js": "/vendors~dumi_demos.4ea6db85.async.js",
   "vendors~wrappers.css": "/vendors~wrappers.1a16d555.chunk.css",

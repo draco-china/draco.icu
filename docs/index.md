@@ -28,7 +28,7 @@ border: none;
 
 - Draco / 男 / 1996
 - 自考本科 / 北京外国语大学
-- 工作年限：<span id="working-years">X<span> 年
+- 工作年限：7.5 年
 - 技术博客：[https://draco.icu](https://draco.icu)
 - Github：[https://github.com/draco-china](https://github.com/draco-china)
 
@@ -178,18 +178,3 @@ RMS 叉车机器人 / 站岗机器人
 - 版本管理、文档和自动化部署工具：Git / Svn
 - 单元测试：Mocha / Karma
 - 自动化工具：Jenkins / Travis.CI
-
-<script async>
-  function getWorkingYears() {
-    var startTime = new Date("10/07/2014 00:00:00").getTime();
-    var endTime = new Date().getTime();
-    var year = (endTime - startTime) / (24 * 60 * 60 * 1000 * 365).toFixed(1);
-    var wholeYear = year | 0;
-    var overage = year - wholeYear;
-    var approximately = overage.toFixed(0) ? 0.5 : 0;
-    return wholeYear+approximately;
-	}
-　window.onload = function(){
-    document.getElementById('working-years').innerHtml = getWorkingYears();
-  }
-</script>

@@ -3,20 +3,6 @@ h1, h2 {
 border: none;
 }
 </style>
-<script>
-  function getWorkingYears() {
-    var startTime = new Date("10/07/2014 00:00:00").getTime();
-    var endTime = new Date().getTime();
-    var year = (endTime - startTime) / (24 * 60 * 60 * 1000 * 365).toFixed(1);
-    var wholeYear = year | 0;
-    var overage = year - wholeYear;
-    var approximately = overage.toFixed(0) ? 0.5 : 0;
-    return wholeYear+approximately;
-	}
-　window.onload = function(){
-    document.getElementById('working-years').innerHtml = getWorkingYears();
-  }
-</script>
 
 <h2 align="center">Hi there, 👋 I'm <a href="https://github.com/draco-china">Draco!</a> 😎</h2>
 
@@ -192,3 +178,18 @@ RMS 叉车机器人 / 站岗机器人
 - 版本管理、文档和自动化部署工具：Git / Svn
 - 单元测试：Mocha / Karma
 - 自动化工具：Jenkins / Travis.CI
+
+<script async>
+  function getWorkingYears() {
+    var startTime = new Date("10/07/2014 00:00:00").getTime();
+    var endTime = new Date().getTime();
+    var year = (endTime - startTime) / (24 * 60 * 60 * 1000 * 365).toFixed(1);
+    var wholeYear = year | 0;
+    var overage = year - wholeYear;
+    var approximately = overage.toFixed(0) ? 0.5 : 0;
+    return wholeYear+approximately;
+	}
+　window.onload = function(){
+    document.getElementById('working-years').innerHtml = getWorkingYears();
+  }
+</script>

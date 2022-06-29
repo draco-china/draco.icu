@@ -2,7 +2,7 @@
   "_chunksMap": {
     "umi": [
       "/umi.27fb2de8.css",
-      "/umi.b8a74ab6.js"
+      "/umi.fe80aa56.js"
     ],
     "wrappers": [
       "/vendors~docs__engineering__01-前端代码规范.md~docs__engineering__02-前端书籍推荐.md~docs__index.md~docs__optimiz~1bc2692f.353fd390.async.js",
@@ -94,7 +94,7 @@
   "docs__reward.md.js": "/docs__reward.md.1a6534db.async.js",
   "dumi_demos.js": "/dumi_demos.129c555e.async.js",
   "umi.css": "/umi.27fb2de8.css",
-  "umi.js": "/umi.b8a74ab6.js",
+  "umi.js": "/umi.fe80aa56.js",
   "vendors~dumi_demos.css": "/vendors~dumi_demos.b95829b9.chunk.css",
   "vendors~dumi_demos.js": "/vendors~dumi_demos.a0fac505.async.js",
   "vendors~wrappers.css": "/vendors~wrappers.1a16d555.chunk.css",

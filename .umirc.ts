@@ -30,7 +30,7 @@ export default defineConfig({
     {
       'crossorigin': 'anonymous',
       async: true,
-      src: 'httpshttps://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8911772601296047',
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8911772601296047',
     },
   ],
 });
